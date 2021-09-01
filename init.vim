@@ -9,3 +9,4 @@ source $HOME/AppData/Local/nvim/plug-config/floaterm.vim
 lua require'plug-colorizer'
 source $HOME/AppData/Local/nvim/plug-config/easymotion.vim
 source $HOME/AppData/Local/nvim/plug-config/start-screen.vim
+source $HOME/AppData/Local/nvim/plug-config/signify.vim

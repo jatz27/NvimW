@@ -34,4 +34,10 @@ Plug 'easymotion/vim-easymotion'
 
 "Startify start screen
 Plug 'mhinz/vim-startify'
+
+" Integracion con Git
+Plug 'mhinz/vim-signify'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rhubarb'
+Plug 'junegunn/gv.vim'
     call plug#end()
