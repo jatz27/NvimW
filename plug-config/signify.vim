@@ -14,5 +14,14 @@ nmap <leader>gk <plug>(signify-prev-hunk)
 nmap <leader>gJ 9999<leader>gJ
 nmap <leader>gK 9999<leader>gk
 
-
+"mappin mostar las linea en las que hay modificacaciones
 nmap <leader>gh :SignifyToggleHighlight<cr>
+
+"mappin git
+nmap <leader>gs :Git status<cr>
+nmap <leader>ga :Git add
+nmap <leader>gc :Git commit -m ""
+nmap <leader>gp :Git push origin
+nmap <leader>gd :Gdiffsplit<cr>
+nmap <leader>gb :Git blame<cr>
+nmap <leader>gl :Git log<cr>
