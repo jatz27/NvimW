@@ -86,8 +86,8 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 nmap <leader>rn <Plug>(coc-rename)
 
 " Formatting selected code.
-xmap <leader>f  <Plug>(coc-format-selected)
-nmap <leader>f  <Plug>(coc-format-selected)
+xmap <A-f>  <Plug>(coc-format-selected)
+nmap <A-f>  <Plug>(coc-format-selected)
 
 augroup mygroup
   autocmd!
@@ -203,3 +203,14 @@ let g:coc_explorer_global_presets = {
 nmap <space>e :CocCommand explorer<CR>
 " nmap <space>f :CocCommand explorer --preset floating<CR>
 " autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
+
+" Desarrollo con Flutter
+nnoremap <leader>cc :CocCommand <CR>
+nnoremap <leader>fe :CocCommand flutter.emulators <CR>
+nnoremap <leader>fd :CocCommand flutter.devices <CR>
+nnoremap <leader>fr :CocCommand flutter.run <CR>
+" Resetea el hotReload
+nnoremap <leader>hr :CocCommand flutter.dev.hotRestart<CR>
+" darle formato a los archivos dart
+let g:dart_format_on_save = 1
+let g:dartfmt_options = ['--fix', '--line-length 80']

@@ -9,10 +9,9 @@ call plug#begin('~/.vim/plugged')
     "OneDark
     Plug 'joshdick/onedark.vim'
 
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
-" Or build from source code by using yarn: https://yarnpkg.com
-Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
+    " Coc
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 
     " Show modes
     Plug 'vim-airline/vim-airline'
@@ -30,14 +29,17 @@ Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lock
     Plug 'norcalli/nvim-colorizer.lua'
     
     " EasyMotion
-Plug 'easymotion/vim-easymotion'
+    Plug 'easymotion/vim-easymotion'
 
-"Startify start screen
-Plug 'mhinz/vim-startify'
+    "Startify start screen
+    Plug 'mhinz/vim-startify'
 
-" Integracion con Git
-Plug 'mhinz/vim-signify'
-Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-rhubarb'
-Plug 'junegunn/gv.vim'
-    call plug#end()
+    " Integracion con Git
+    Plug 'mhinz/vim-signify'
+    Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-rhubarb'
+    Plug 'junegunn/gv.vim'
+
+    "Flutter Dart
+    Plug 'dart-lang/dart-vim-plugin'
+call plug#end()
