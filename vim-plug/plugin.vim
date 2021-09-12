@@ -50,7 +50,7 @@ call plug#begin('~/.vim/plugged')
     " Plugins para html
     " Emmet
     Plug 'mattn/emmet-vim'
-    "Cierra los tags de html
+    "Cierra los tags de html  
     Plug 'alvan/vim-closetag'
 
 call plug#end()
