@@ -52,5 +52,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'mattn/emmet-vim'
     "Cierra los tags de html  
     Plug 'alvan/vim-closetag'
+    "Resalta el tag que agre y el que cierra
+    Plug 'gregsexton/matchtag'
 
 call plug#end()
