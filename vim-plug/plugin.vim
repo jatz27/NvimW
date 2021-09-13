@@ -2,7 +2,8 @@ call plug#begin('~/.vim/plugged')
 
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
-    
+    "parentesis de colores
+    Plug 'luochen1990/rainbow'
     "Themes
     " Minimalist
 "    Plug 'dikiaap/minimalist'
@@ -54,5 +55,5 @@ call plug#begin('~/.vim/plugged')
     Plug 'alvan/vim-closetag'
     "Resalta el tag que agre y el que cierra
     Plug 'gregsexton/matchtag'
-
+    
 call plug#end()
