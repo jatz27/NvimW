@@ -56,4 +56,9 @@ call plug#begin('~/.vim/plugged')
     "Resalta el tag que agre y el que cierra
     Plug 'gregsexton/matchtag'
     
-call plug#end()
+    "Plugins para debug
+    Plug 'puremourning/vimspector'
+    " Maximisa ventanas
+    Plug 'szw/vim-maximizer'
+    
+  call plug#end()

@@ -55,3 +55,5 @@ nmap <leader>bd :bd<CR>
 nmap <leader>dv :vsplit<CR>
 nmap <leader>dh :split<CR>
 
+" Maximisar ventanas 
+nmap <A-m> :MaximizerToggle<CR>
