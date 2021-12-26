@@ -4,9 +4,10 @@ call plug#begin('~/.vim/plugged')
     Plug 'jiangmiao/auto-pairs'
     "parentesis de colores
     Plug 'luochen1990/rainbow'
+
     "Themes
     " Minimalist
-"    Plug 'dikiaap/minimalist'
+    "Plug 'dikiaap/minimalist'
     "OneDark
     Plug 'joshdick/onedark.vim'
 
@@ -20,6 +21,10 @@ call plug#begin('~/.vim/plugged')
     
     "Commentary
     Plug 'tpope/vim-commentary'
+    "Plugin para reperterir acciones
+    Plug 'tpope/vim-repeat'
+    " Pluging para cambiar ""''(){}[] y tags html y xml
+    Plug 'tpope/vim-surround'
 
     "Telescope
     Plug 'nvim-lua/popup.nvim'
@@ -61,4 +66,7 @@ call plug#begin('~/.vim/plugged')
     " Maximisa ventanas
     Plug 'szw/vim-maximizer'
     
+    " MiniMap resusmen de codigo en lateral derecho
+    Plug 'wfxr/minimap.vim'
+
   call plug#end()

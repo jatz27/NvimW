@@ -12,3 +12,4 @@ source $HOME/AppData/Local/nvim/plug-config/start-screen.vim
 source $HOME/AppData/Local/nvim/plug-config/signify.vim
 source $HOME/AppData/Local/nvim/plug-config/rainbow.vim
 source $HOME/AppData/Local/nvim/inspector/vimspector.vim
+source $HOME/AppData/Local/nvim/plug-config/minimap.vim
