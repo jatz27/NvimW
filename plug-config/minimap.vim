@@ -4,3 +4,8 @@ let g:minimap_auto_start_win_enter = 1
 let g:minimap_highlight_range = 1
 let g:minimap_highlight_search = 1
 let g:minimap_git_colors = 1
+
+
+nmap <leader>mc :MinimapClose<CR>
+nmap <leader>mr :MinimapRefresh<CR>
+nmap <leader>mo :Minimap<CR>
